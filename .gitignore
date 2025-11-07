@@ -1,4 +1,4 @@
-# Create .gitignore file with this content:
+# Create .gitignore to prevent these files in future
 (
 echo # Virtual environment
 echo venv/
