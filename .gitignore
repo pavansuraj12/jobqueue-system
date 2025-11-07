@@ -1,17 +1,19 @@
-# Create .gitignore with this content:
-echo # Virtual environment > .gitignore
-echo venv/ >> .gitignore
-echo env/ >> .gitignore
-echo. >> .gitignore
-echo # Python cache >> .gitignore
-echo __pycache__/ >> .gitignore
-echo *.pyc >> .gitignore
-echo. >> .gitignore
-echo # Package files >> .gitignore
-echo *.egg-info/ >> .gitignore
-echo build/ >> .gitignore
-echo dist/ >> .gitignore
-echo. >> .gitignore
-echo # Data files >> .gitignore
-echo *.json >> .gitignore
-echo !requirements.txt >> .gitignore
+# Create .gitignore file with this content:
+(
+echo # Virtual environment
+echo venv/
+echo env/
+echo.
+echo # Python cache
+echo __pycache__/
+echo *.pyc
+echo.
+echo # Package files
+echo *.egg-info/
+echo build/
+echo dist/
+echo.
+echo # Data files
+echo *.json
+echo !requirements.txt
+) > .gitignore
