@@ -1,0 +1,8 @@
+README.md
+setup.py
+jobqueue_system.egg-info/PKG-INFO
+jobqueue_system.egg-info/SOURCES.txt
+jobqueue_system.egg-info/dependency_links.txt
+jobqueue_system.egg-info/entry_points.txt
+jobqueue_system.egg-info/requires.txt
+jobqueue_system.egg-info/top_level.txt
